@@ -48,13 +48,18 @@ Login with your superuser credentials
 🛠️ You can expand this project by adding frontend pages or APIs
 
 🔁 Customize the models and admin layout based on your use case
+ using Django
 
 📸 Output:
 ![image](https://github.com/user-attachments/assets/e862fd97-8acf-4a09-ac77-3b146c838227)
-![image](https://github.com/user-attachments/assets/aa25d625-5af1-4d2c-9cb2-e41895c95f6a)
 
 
- using Django
+![image](https://github.com/user-attachments/assets/6980b4cc-a9c1-42e4-8ce0-4a448476ff2e)
+
+
+![image](https://github.com/user-attachments/assets/c6227984-21cd-4e82-a279-dcd6869550c3)
+
+
 
 
 
