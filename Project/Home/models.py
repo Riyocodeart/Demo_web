@@ -4,13 +4,15 @@ import datetime
 # Create your models here.
 
 # Categories of Products
-class categories(models.Model):
+class category(models.Model):
     Category = models.CharField( max_length=50)
 
     def __str__(self):
         return self.Category
     
-
+    #@daverobb2011
+    class Meta:
+        verbose_name_plural = 'categories'
 
 # Customer
 class customer(models.Model): 
@@ -28,7 +30,7 @@ class customer(models.Model):
 class product(models.Model):
     name = models.CharField( max_length=50)
     price = models.DecimalField(max_digits=7, decimal_places=2,  default = 0)
-    categories = models.ForeignKey(categories,on_delete=models.CASCADE, default = 1)
+    category = models.ForeignKey(category,on_delete=models.CASCADE, default = 1)
     description = models.CharField( max_length=240)
     image = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=None)
 

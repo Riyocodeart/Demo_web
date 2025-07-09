@@ -1,9 +1,10 @@
 from django.shortcuts import render, HttpResponse
-
+from .models import product
 
 # Create your views here.
 def index(request):
-    return render(request, 'index.html')
+    products = product.objects.all()
+    return render(request, 'index.html', {'products':products})
     # return HttpResponse('this is a home page')
 
 
