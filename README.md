@@ -1,6 +1,10 @@
 # 🛒 Django E-Commerce Backend (Admin Panel)
 
 This Django project provides a simple admin interface to manage **🗂️ Categories**, **📦 Products**, **👤 Customers**, and **🧾 Orders** models for an e-commerce-like system.
+![image](https://github.com/user-attachments/assets/b3b6a7fe-9623-4518-b7a3-83178a9c55c8)
+<br><br>
+![Uploading image.png…]()
+
 
 ---
 
